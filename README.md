@@ -1,6 +1,6 @@
 # Auta ui page
 
-## Przykładowa strona Sklepu
+## Przykładowa responsywna strona Sklepu
 
 #### [Link do strony: ](https://luki23445.github.io/Auta-ui-page/)
 
