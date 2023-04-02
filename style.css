@@ -1,0 +1,935 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .calosc {
+    font-family: Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: black;
+}
+  
+  #slideshow {
+    overflow: hidden;
+    width: 1200px;
+    height: 675px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 4800px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    width: 1200px;
+    height: 675px;
+  }
+  
+  .slide:nth-child(1) {
+    background: #d93b65;
+    background: url("https://i.postimg.cc/KcMr0V8d/1.jpg");
+    background-size: 100%;
+  }
+  
+  .slide:nth-child(2) {
+    background: #037e8c;
+    background: url("https://i.postimg.cc/7Zx3YZnk/2.jpg");
+    background-size: 100%;
+  }
+  
+  .slide:nth-child(3) {
+    background: #36bf66;
+    background: url("https://i.postimg.cc/HkBQJ167/3.jpg");
+    background-size: 100%;
+  }
+  
+  .slide:nth-child(4) {
+    background: #d9d055;
+    background: url("https://i.postimg.cc/8CcLMXYX/4.jpg");
+    background-size: 100%;
+  }
+  
+ 
+  
+  @-webkit-keyframes slide {
+    20% {
+      margin-left: 0px;
+    }
+    30% {
+      margin-left: -1200px;
+    }
+    50% {
+      margin-left: -1200px;
+    }
+    60% {
+      margin-left: -2400px;
+    }
+    70% {
+      margin-left: -2400px;
+    }
+    80% {
+      margin-left: -3600px;
+    }
+    90% {
+      margin-left: -3600px;
+    }
+  }
+
+.logo {
+    float: left;
+    position: absolute;
+    width: 120px;
+    height: 77px;
+    background: url("logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 30px;
+}
+.menu {
+    float: right;
+    position: absolute;
+    margin: 30px;
+    margin-left: 1000px;
+    font-size: 200%;
+    transition: 0.4s;
+    color: #969696;
+}
+.menu:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.description_1 {
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 150%;
+}
+.description_2 {
+    margin-left: 100px;
+    font-size: 400%;
+    width: 1000px;
+}
+.button_on_slider {
+    padding: 15px 20px;
+    background: red;
+    border: 4px solid red;
+    border-radius: 30px;
+    font-size: 120%;
+    color: white;
+    margin: 10px 100px;
+    transition: 0.2s;
+}
+
+.button_on_slider:hover {
+    border: 4px solid white;
+}
+.scroling{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.logo_scrol{
+    padding: 20px 0;
+    width: 300px;
+    flex: 0 0 auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.napis_1 {
+    color: #FFFFFF;
+font-size: 60px;
+font-weight: 700;
+line-height: 1.5em;
+text-align: center;
+}
+
+.napis_2 {
+    text-align: center;
+color: #C2CAD7;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.6em;
+}
+
+.karty {
+    width: 100%;
+    height: 1200px ;
+}
+
+.karta {
+    aspect-ratio: 1 / 1;
+    width: 360px;
+    margin: 10px;
+    background: #242323;
+    float: left;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.none {
+    display: block;
+}
+
+.karta:hover {
+    transform: scale(1.05);
+}
+
+
+.img {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nazwa_produktu {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+.cena_produktu {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #c02a2a;
+    padding: 5px;
+}
+.plyty {
+    margin-top: 300px;
+}
+.plyta {
+    width: 1100px;
+    height: 472.7px;
+    margin: 100px auto 100px auto;
+    border-radius: 20px;
+    background: #037e8c;
+    padding: 20px;
+    transition: 0.8s;
+}
+
+.plyta:hover {
+    transform: scale(1.02);
+}
+
+.description_3_lewa {
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 200%;
+    color: #c02a2a;
+}
+.description_4_lewa {
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 300%;
+    width: 600px;
+    
+}
+.description_3_prawa {
+    margin-top: 80px;
+    margin-right: 100px;
+    font-size: 200%;
+    color: #c02a2a;
+    float: right;
+}
+.description_4_prawa {
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 300%;
+    width: 600px;
+    float: right;
+    text-align: right;
+}
+.button_on_plyta_lewy {
+    width: 166px;
+    height: 60px;
+    padding: 15px 20px;
+
+    background: none;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF33;
+    border-radius: 100px;
+
+    font-size: 120%;
+    color: white;
+    margin: 50px 100px;
+    transition: 0.4s;
+}
+.button_on_plyta_prawy {
+    width: 166px;
+    height: 60px;
+    padding: 15px 20px;
+    float: right;
+
+    background: none;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF33;
+    border-radius: 100px;
+
+    font-size: 120%;
+    color: white;
+    margin-top: 50px;
+    margin-right: 100px;
+    transition: 0.4s;
+}
+
+.button_on_plyta_lewy:hover, .button_on_plyta_prawy:hover  {
+    background-color: red;
+    border-width: 2px 2px 2px 2px;
+    border-color: rgb(197, 96, 96);
+}
+
+#plyta_1 {
+    background: url(https://i.postimg.cc/NGmm6HNt/plyta.jpg);
+    background-size: 100%;
+    -webkit-box-shadow: inset 100px 0px 100px 50px rgba(0, 0, 0, 1);
+-moz-box-shadow: inset 100px 0px 100px 50px rgba(0, 0, 0, 1);
+box-shadow: inset 100px 0px 100px 50px rgba(0, 0, 0, 1);
+}
+
+#plyta_2 {
+    background: url(https://i.postimg.cc/sxYWskBx/plyta2.jpg);
+    background-size: 100%;
+    -webkit-box-shadow: inset -100px 0px 100px 50px rgba(0, 0, 0, 1);
+-moz-box-shadow: inset -100px 0px 100px 50px rgba(0, 0, 0, 1);
+box-shadow: inset -100px 0px 100px 50px rgba(0, 0, 0, 1);
+}
+
+#plyta_3 {
+    background: url(https://i.postimg.cc/NGmm6HNt/plyta.jpg);
+    background-size: 100%;
+    -webkit-box-shadow: inset 100px 0px 100px 50px rgba(0, 0, 0, 1);
+-moz-box-shadow: inset 100px 0px 100px 50px rgba(0, 0, 0, 1);
+box-shadow: inset 100px 0px 100px 50px rgba(0, 0, 0, 1);
+    
+}
+
+#plyta_4 {
+    background: url(https://i.postimg.cc/sxYWskBx/plyta2.jpg);
+    background-size: 100%;
+    -webkit-box-shadow: inset -100px 0px 100px 50px rgba(0, 0, 0, 1);
+-moz-box-shadow: inset -100px 0px 100px 50px rgba(0, 0, 0, 1);
+box-shadow: inset -100px 0px 100px 50px rgba(0, 0, 0, 1);
+}
+.prawa {
+    width: 500px;
+    height: 100%;
+    float: right;
+}
+
+.stopka {
+    width: 1200px;
+    height: 500px;
+    background-image: url("https://i.postimg.cc/SKPCr7FS/stopka1.png");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+      }
+
+.kolumna {
+    padding-top: 10px;
+    width: 300px;
+    height: 350px;
+    float: left;
+}
+
+.tytul_stopka {
+    padding: 10px;
+}
+
+.linki_stopka{
+    padding: 10px;
+}
+
+.linki_stopka a {
+    text-decoration: none;
+    text-align: left;
+    color: #838383;
+    font-weight: bold;
+}
+
+.linki_stopka a:hover {
+    color: #c02a2a;
+}
+
+.logo_2 {
+    width: 379.983px;
+    height: 77px;
+    float: left;
+}
+
+.copyright {
+    width: 379.983px;
+    height: 77px;
+    text-align: center;
+    font-size: 17px;
+    padding: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+}
+
+.social_media{
+    width: 379.983px;
+    height: 77px;
+    float: left;
+}
+
+.social_media button {
+    float: right;
+    width: 52px;
+    height: 52px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 0;
+    padding: 10px;
+    background: #242323;
+    color: #ffffff;
+}
+
+.social_media button:hover {
+    background: #c02a2a;
+    transition: 0.4s;
+}
+@media only screen and (max-width: 1024px) {
+    .calosc {
+        width: 1024px;
+    }
+
+    #slideshow {
+        width: 1024px;
+        height: 576px;
+      }
+      
+      .slide-wrapper {
+        width: 4096px;
+      }
+      
+      .slide {
+        width: 1024px;
+        height: 576px;
+      }
+      
+      @-webkit-keyframes slide {
+        20% {
+          margin-left: 0px;
+        }
+        30% {
+          margin-left: -1024px;
+        }
+        50% {
+          margin-left: -1024px;
+        }
+        60% {
+          margin-left: -2048px;
+        }
+        70% {
+          margin-left: -2048px;
+        }
+        80% {
+          margin-left: -3072px;
+        }
+        90% {
+          margin-left: -3072px;
+        }
+      }
+      .logo {
+        width: 120px;
+        height: 77px;
+        margin: 30px;
+    }
+    .menu {
+        margin: 30px;
+        margin-left: 850px;
+    }
+
+    .description_1 {
+        margin-top: 250px;
+        margin-left: 80px;
+        font-size: 130%;
+    }
+    .description_2 {
+        margin-left: 80px;
+        font-size: 300%;
+        width: 650px;
+    }
+    .button_on_slider {
+        padding: 10px 15px;
+        font-size: 110%;
+        margin: 7px 80px;
+    }
+    .scroling{
+        margin-top: 15px;
+    }
+    
+    .logo_scrol{
+        width: 256px;
+        font-size: 35px;
+    }
+    .napis_1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4em;
+    }
+    
+    .napis_2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    }
+    
+    .karty {
+        width: 1024px;
+        height: 1024px ;
+        clear: both;
+    }
+    
+    .karta {
+        aspect-ratio: 1 / 1;
+        width: 320px;
+        margin: 5.5px;
+        padding: 5px;
+        transition: 0.3s;
+    }
+
+    .none {
+        display: block;
+    }
+    
+    .karta:hover {
+        transform: scale(1.03);
+    }
+    
+    
+    .img {
+        width: 75%;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .nazwa_produktu {
+        font-size: 30px;
+        margin: 0;
+    }
+    .cena_produktu {
+        margin: 0;
+        font-size: 20px;
+        padding: 8px;
+    }
+    .plyty {
+        margin-top: 200px;
+    }
+    .plyta {
+        width: 924px;
+        height: 397px;
+        margin: 80px auto 80px auto;
+        border-radius: 20px;
+        padding: 20px;
+        transition: 0.8s;
+    }
+    
+    .plyta:hover {
+        transform: scale(1.02);
+    }
+    
+    .description_3_lewa {
+        margin-top: 80px;
+        margin-left: 80px;
+        font-size: 160%;
+    }
+    .description_4_lewa {
+        margin-top: 50px;
+        margin-left: 80px;
+        font-size: 250%;
+        width: 500px;
+        
+    }
+    .description_3_prawa {
+        margin-top: 80px;
+        margin-right: 80px;
+        font-size: 160%;
+        float: right;
+    }
+    .description_4_prawa {
+        margin-top: 50px;
+        margin-right: 80px;
+        font-size: 250%;
+        width: 500px;
+        float: right;
+        text-align: right;
+    }
+    .button_on_plyta_lewy {
+        width: 166px;
+        height: 60px;
+        padding: 10px 15px;
+    
+        font-size: 100%;
+        margin: 50px 80px;
+        transition: 0.4s;
+    }
+    .button_on_plyta_prawy {
+        width: 166px;
+        height: 60px;
+        padding: 10px 15px;
+        float: right;
+    
+        font-size: 100%;
+        color: white;
+        margin-top: 50px;
+        margin-right: 80px;
+        transition: 0.4s;
+    }
+    
+    .prawa {
+        width: 400px;
+        height: 100%;
+        float: right;
+    }
+
+    .stopka {
+        width: 1024px;
+        height: 426.67px;
+          }
+    
+    .kolumna {
+        padding-top: 5px;
+        width: 256px;
+        height: 250px;
+        float: left;
+    }
+    
+    .tytul_stopka {
+        padding: 5px;
+    }
+    
+    .linki_stopka{
+        padding: 5px;
+    }
+    
+    .linki_stopka a {
+        font-weight: bold;
+        font-size: 90%;
+    }
+    
+    .logo_2 {
+        width: 33.33%;
+        height: 77px;
+        float: left;
+    }
+    
+    .copyright {
+        width: 33.33%;
+        height: 77px;
+        text-align: center;
+        font-size: 17px;
+        padding: 30px 0;
+        display: table-cell;
+        vertical-align: middle;
+        float: left;
+    }
+    
+    .social_media{
+        width: 33.33%;
+        height: 77px;
+        float: left;
+    }
+    
+    .social_media button {
+        float: right;
+        width: 52px;
+        height: 52px;
+        margin: 10px;
+        border-radius: 100%;
+        border: 0;
+        padding: 10px;
+        background: #242323;
+        color: #ffffff;
+    }
+    
+    .social_media button:hover {
+        background: #c02a2a;
+        transition: 0.4s;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .calosc {
+        width: 480px;
+    }
+
+    #slideshow {
+        width: 480px;
+        height: 270px;
+      }
+      
+      .slide-wrapper {
+        width: 1920px;
+      }
+      
+      .slide {
+        width: 480px;
+        height: 270px;
+      }
+      
+      @-webkit-keyframes slide {
+        20% {
+          margin-left: 0px;
+        }
+        30% {
+          margin-left: -480px;
+        }
+        50% {
+          margin-left: -480px;
+        }
+        60% {
+          margin-left: -960px;
+        }
+        70% {
+          margin-left: -960px;
+        }
+        80% {
+          margin-left: -1440px;
+        }
+        90% {
+          margin-left: -1440px;
+        }
+      }
+      .logo {
+        width: 80px;
+        height: 51.33px;
+        margin: 10px;
+        background-size: cover;
+    }
+    .menu {
+        margin: 10px;
+        margin-left: 360px;
+        font-size: 150%;
+    }
+
+    .description_1 {
+        margin-top: 110px;
+        margin-left: 40px;
+        font-size: 80%;
+    }
+    .description_2 {
+        margin-left: 40px;
+        font-size: 150%;
+        width: 300px;
+    }
+    .button_on_slider {
+        padding: 5px 10px;
+        font-size: 90%;
+        margin: 3px 40px;
+        border: 2px solid red;
+        border-radius: 20px;
+    }
+    .button_on_slider:hover {
+        border: 2px solid white;
+    }
+    .scroling{
+        margin-top: 15px;
+    }
+    
+    .logo_scrol{
+        width: 120px;
+        font-size: 25px;
+    }
+    .napis_1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4em;
+    }
+    
+    .napis_2 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5em;
+    }
+    
+    .karty {
+        width: 480px;
+        height: 960px ;
+        clear: both;
+    }
+    
+    .karta {
+        aspect-ratio: 1 / 1;
+        width: 210px;
+        margin: 10px;
+        padding: 5px;
+        transition: 0.3s;
+    }
+    
+    .none {
+        display: none;
+    }
+    
+    .karta:hover {
+        transform: scale(1.08);
+    }
+    
+    
+    .img {
+        width: 67%;
+        aspect-ratio: 1 / 1;
+    }
+    
+    .nazwa_produktu {
+        font-size: 25px;
+        margin: 0;
+    }
+    .cena_produktu {
+        margin: 0;
+        font-size: 20px;
+        padding: 6px;
+    }
+    .plyty {
+        margin-top: 150px;
+    }
+    .plyta {
+        width: 400px;
+        height: 172px;
+        margin: 40px auto 40px auto;
+        border-radius: 20px;
+        padding: 20px;
+        transition: 0.8s;
+    }
+    
+    .plyta:hover {
+        transform: scale(1.08);
+    }
+    
+    .description_3_lewa {
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: 100%;
+    }
+    .description_4_lewa {
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 160%;
+        width: 300px;
+        
+    }
+    .description_3_prawa {
+        margin-top: 40px;
+        margin-right: 40px;
+        font-size: 100%;
+        float: right;
+    }
+    .description_4_prawa {
+        margin-top: 20px;
+        margin-right: 40px;
+        font-size: 160%;
+        width: 300px;
+        float: right;
+        text-align: right;
+    }
+    .button_on_plyta_lewy {
+        width: 120px;
+        height: 45px;
+        padding: 5px 10px;
+    
+        font-size: 80%;
+        margin: 30px 40px;
+        transition: 0.4s;
+    }
+    .button_on_plyta_prawy {
+        width: 126px;
+        height: 45px;
+        padding: 5px 10px;
+        float: right;
+    
+        font-size: 80%;
+        margin-top: 30px;
+        margin-right: 40px;
+        transition: 0.4s;
+    }
+    
+    .prawa {
+        width: 300px;
+        height: 100%;
+        float: right;
+    }
+
+    .stopka {
+        margin-top: 50px;
+        width: 480px;
+        height: 300px;
+        background-image: url("stopka2.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+          }
+    
+    .kolumna {
+        padding-top: 5px;
+        width: 120px;
+        height: 230px;
+        float: left;
+    }
+    
+    .tytul_stopka {
+        padding: 5px;
+        font-size: 80%;
+    }
+    
+    .linki_stopka{
+        padding: 5px;
+    }
+    
+    .linki_stopka a {
+        font-weight: bold;
+        font-size: 75%;
+    }
+    
+    .logo_2 {
+        width: 80px;
+        height: 51.33px;
+        float: left;
+    }
+    
+    .copyright {
+        width: 150px;
+        height: 51.33px;
+        text-align: center;
+        font-size: 12px;
+        padding: 2px 0;
+        display: table-cell;
+        vertical-align: middle;
+        float: left;
+    }
+    
+    .social_media{
+        width: 250px;
+        height: 51.33px;
+        float: left;
+    }
+    
+    .social_media button {
+        float: right;
+        width: 32px;
+        height: 32px;
+        margin: 10px;
+        border-radius: 100%;
+        border: 0;
+        padding: 10px;
+        background: #242323;
+        color: #ffffff;
+    }
+    
+    .social_media button:hover {
+        background: #c02a2a;
+        transition: 0.4s;
+    }
+}
